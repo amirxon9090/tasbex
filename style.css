@@ -13,11 +13,11 @@ background-color: rgb(122, 126, 111);
 
    
 }
-#plus{
+#btnPlus{
     padding: 10px 15px;
     border-radius: 20px;
 }
-#minus{
+#btnMinus{
      padding: 10px 15px;
      border-radius: 20px;
      
@@ -25,7 +25,7 @@ background-color: rgb(122, 126, 111);
      
     
 }
-#reset{
+#btnReset{
     padding: 10px 15px;
     border-radius: 20px;
     background-color: rgb(187, 9, 9);

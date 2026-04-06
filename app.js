@@ -1,4 +1,13 @@
+
+
+document.getElementById("btnPlus").addEventListener("click", increaseCount);
+document.getElementById("btnMinus").addEventListener("click", decreaseCount);
+document.getElementById("btnReset").addEventListener("click", resetCount);
+
+
+
 let count = 0;
+
 
 
 function updateCount() {
@@ -13,8 +22,6 @@ function increaseCount() {
 }
 
   
-
-
 function decreaseCount() {
 if (count > 0)
 
@@ -22,16 +29,13 @@ if (count > 0)
   localStorage.setItem("count", count);
   updateCount();
 
-
-  
-
-  
 }
 
 
 function resetCount() {
   count = 0;
   localStorage.setItem("count", count);
+  
   updateCount();
 }
 
@@ -42,4 +46,9 @@ window.onload = function(){
     }
       updateCount();
 };
+
+
+
+
+
 
